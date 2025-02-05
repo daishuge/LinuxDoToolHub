@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>工具站 | ToolHub</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    </head>
+    <body>
+    <header class="site-header">
+        <div class="header-left">
+            <img class="logo" src="https://i.miji.bid/2025/02/05/03bea1b8bb54fa91bbd6de6bd3965c06.th.jpeg" alt="Logo">
+            <span class="site-title">linux.do tool hub </span>
+        </div>
+        <div id="info" class="header-info">
+            <!-- 预留的右侧信息区域，后续可修改 -->
+        </div>
+    </header>
+
+    <!-- 工具列表区域 -->
+    <div class="tool-list" id="tool-list">
+        加载工具中...
+    </div>
+    
+
+    <!-- <footer>
+        <p>© 2025 ToolHub by 袋鼠哥 | Flask Powered</p>
+    </footer> -->
+    <script src="{{ url_for('static', filename='js/index.js') }}"></script>
+    </body>
+    
+</html>
